@@ -41,7 +41,7 @@ export default function Form() {
               Keep me logged in
             </label>
           </div>
-          <button className="underline font-medium text-base text-dark-blue">
+          <button className="underline font-medium text-base text-dark-blue hover:text-sky-700">
             Forgot Password
           </button>
         </div>
@@ -57,7 +57,7 @@ export default function Form() {
             <p className="font-medium text-base">
                 Don't have an account?
             </p>
-            <button className="text-dark-blue text-base font-medium ml-2">Sign Up</button>
+            <button className="text-dark-blue text-base font-medium ml-2 underline hover:text-sky-700">Sign Up</button>
         </div>
       </div>
     </div>
